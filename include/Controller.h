@@ -22,8 +22,9 @@ namespace mrsd
 			 */
 			void createPlayer(Game& g);
 		private:
-			Player* p;
-			float currentTime;
+			Player* p;	
+			int W[200];			
+			
 			/*
 			 * Track projectile and determine where and when it will hit ground.
 			 */
